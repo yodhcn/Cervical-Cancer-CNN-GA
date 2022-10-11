@@ -7,8 +7,13 @@ Abstract: Cervical cancer affects more than 500,000 women in the world annually 
 
 To install the dependencies, run the following using the command prompt:
 
-`pip install -r requirements.txt`
+https://github.com/pytorch/vision#installation \
+https://pytorch.org/get-started/previous-versions/#v150
 
+```
+pip install torch==1.5.0+cpu torchvision==0.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html`
+pip install -r requirements.txt
+```
 ## Running the code on the Cervical Cytology data
 
 
